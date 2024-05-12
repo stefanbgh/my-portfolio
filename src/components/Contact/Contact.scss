@@ -1,0 +1,60 @@
+@import "../../scss/abstract/variables";
+
+.contact {
+	&__info {
+		@apply flex items-center justify-center flex-col relative z-10 gap-5 mb-8;
+	}
+}
+
+.door {
+	position: relative;
+	@apply border-2 border-black p-2 cursor-pointer;
+
+	&::before,
+	&::after {
+		position: absolute;
+		top: -40%;
+		left: -235%;
+		height: 30px;
+		transform: translateY(-50%);
+		pointer-events: none;
+	}
+
+	&::before {
+		content: "";
+		width: 240px;
+		background: $dark;
+		z-index: 1;
+		transition: 0.5s;
+	}
+
+	&::after {
+		content: "stefan022github@gmail.com";
+		width: 225px;
+		background: $d-gradient;
+		display: none;
+		align-items: center;
+		justify-content: center;
+		padding-left: 0.25rem;
+	}
+}
+
+.door.active {
+	&::before,
+	&::after {
+		cursor: text;
+		user-select: text;
+	}
+
+	&::before {
+		width: 0%;
+		border-right: 5px solid $light;
+		border-radius: 5px;
+		transition: 1s;
+	}
+
+	&::after {
+		border: 0.25px solid #1d1d1d;
+		display: flex;
+	}
+}
