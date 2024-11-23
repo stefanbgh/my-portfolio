@@ -3,7 +3,7 @@
 		@apply flex items-center justify-center flex-col relative z-10 gap-5 mb-32;
 
 		&-skills {
-			@apply flex gap-5 flex-wrap items-center justify-center;
+			@apply flex gap-2 flex-wrap items-center justify-center;
 
 			&-img {
 				&:hover {

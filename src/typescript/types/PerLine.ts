@@ -1,1 +1,1 @@
-export type PerLine = 13 | 5 | 3;
+export type PerLine = 16 | 8 | 4 | 2;

@@ -8,7 +8,7 @@ import { skillIcons } from "../../constants/skillIcons.constant";
 import "./TechStack.scss";
 
 const TechStack: FunctionComponent = (): JSX.Element => {
-	const [perLine, setPerLine] = useState<number>(13);
+	const [perLine, setPerLine] = useState<number>(16);
 
 	const calcPerLine = () => {
 		const screenWidth = window.innerWidth;
