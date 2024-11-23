@@ -40,6 +40,10 @@ li {
 	@apply mb-4 list-disc;
 }
 
+.highlight {
+	@apply font-bold text-white;
+}
+
 .link {
 	&:hover {
 		background: $wb-gradient;
