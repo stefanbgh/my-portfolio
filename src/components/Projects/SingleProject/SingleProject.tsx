@@ -14,6 +14,7 @@ const SingleProject: FunctionComponent<IProps> = ({
 }): JSX.Element => {
 	return (
 		<div
+			data-aos={isReversed ? "fade-left" : "fade-right"}
 			className={
 				isReversed
 					? "projects__group-project__reverse"
