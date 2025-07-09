@@ -10,10 +10,10 @@ const AboutMe: FunctionComponent = (): JSX.Element => {
 			<Title title="About Me" />
 
 			<p className="about__me-text" data-aos="fade-up">
-				As a junior Software Developer, I possess advanced knowledge of
+				As a junior Software Engineer, I possess advanced knowledge of
 				<span className="highlight">
 					{" "}
-					JavaScript, TypeScript, React & Vue
+					TypeScript, Next, React & Vue
 				</span>
 				. With a keen eye for detail, I am skilled in building
 				interactive user interfaces and utilizing tools like
@@ -35,7 +35,7 @@ const AboutMe: FunctionComponent = (): JSX.Element => {
 				access and for authentication, I use
 				<span className="highlight"> JSON Web Token (JWT)</span>. My
 				current focus is on learning
-				<span className="highlight"> NestJS</span>.
+				<span className="highlight"> PHP & Symfony</span>.
 			</p>
 		</section>
 	);
