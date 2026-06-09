@@ -9,7 +9,7 @@ const Info: FunctionComponent = (): JSX.Element => {
 				Stefan Blagojevic!
 			</h1>
 			<h4 data-aos="fade-left">
-				<span>Junior Software Engineer</span> 💻
+				<span>Junior Full-Stack Developer</span> 💻
 			</h4>
 		</div>
 	);

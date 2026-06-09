@@ -5,9 +5,9 @@ import "./Desc.scss";
 const Desc: FunctionComponent = (): JSX.Element => {
 	return (
 		<div className="desc" data-aos="fade-up">
-			<p>I enjoy working with Typescript, Next, React & Vue, while for</p>
+			<p>I enjoy working with TypeScript and frontend frameworks like Next.js, Vue & Angular,</p>
 			<p>
-				backend development, I use Express.js & MySQL with Sequelize 🎧
+				while for backend development, my go-to stack is Express.js and MySQL with Sequelize 🎧
 			</p>
 		</div>
 	);
