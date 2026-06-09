@@ -7,6 +7,7 @@ import {
 	Contact,
 	Footer,
 	Hero,
+	WorkExperience,
 	Navbar,
 	Overlay,
 	Projects,
@@ -35,6 +36,7 @@ const App: FunctionComponent = (): JSX.Element => {
 					<Hero />
 					<AboutMe />
 					<TechStack />
+					<WorkExperience />
 					<Projects />
 					<QuoteCode />
 					<Contact />
