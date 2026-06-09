@@ -1,3 +1,5 @@
+@use "../abstract/variables" as *;
+
 h1 {
 	@apply text-6xl font-bold;
 }

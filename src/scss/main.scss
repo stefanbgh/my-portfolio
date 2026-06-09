@@ -1,7 +1,9 @@
+@use "sass:meta";
+@use "./abstract/variables";
+@use "./base/base";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import "./abstract/variables";
-@import "./base/base";
-@import "./global/global";
+@include meta.load-css("./global/global");

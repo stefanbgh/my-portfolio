@@ -1,4 +1,4 @@
-@import "../../../scss/abstract/variables";
+@use "../../../scss/abstract/variables" as *;
 
 @mixin icon($color) {
 	@apply rounded-full p-2 border-2 border-black relative;

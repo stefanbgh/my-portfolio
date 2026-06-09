@@ -1,4 +1,4 @@
-@import "../../scss/abstract/variables";
+@use "../../scss/abstract/variables" as *;
 
 .scroll-btn {
 	position: fixed;
